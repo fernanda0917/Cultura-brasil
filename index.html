@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Descubre la cultura de Brasil: festividades, música, danza y gastronomía.">
+<title>Cultura de Brasil | Inicio</title>
+<link rel="stylesheet" href="css/estilos.css">
+
+<script src="js/script_index.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+    <h1 class="logo">Cultura Brasil</h1>
+
+    <button class="menu-btn" id="menu-btn" aria-label="Abrir menú" aria-expanded="false">
+    ☰
+    </button>
+
+    <nav id="menu" aria-label="Menú principal">
+        <a href="index.html" aria-current="page">Inicio</a>
+        <a href="festividades.html">Festividades</a>
+        <a href="musica.html">Música y Danza</a>
+        <a href="gastronomia.html">Gastronomía</a>
+    </nav>
+</header>
+
+<main>
+
+<section class="hero">
+    <h2>Descubre la Cultura de Brasil</h2>
+    <p id="mensaje"></p>
+</section>
+
+<section class="categorias">
+
+<article class="card">
+<h3><a href="festividades.html">Festividades</a></h3>
+</article>
+
+<article class="card">
+<h3><a href="musica.html">Música y Danza</a></h3>
+</article>
+
+<article class="card">
+<h3><a href="gastronomia.html">Gastronomía</a></h3>
+</article>
+
+</section>
+
+<section class="descripcion">
+
+<h2>Descripción Cultural</h2>
+
+<p>
+Brasil es un país lleno de diversidad cultural,
+reconocido por sus festividades coloridas,
+su música vibrante y su riqueza gastronómica.
+</p>
+
+<div class="slider">
+
+<img id="slider-img"
+src="images/brasil.jpg"
+alt="Cultura brasileña con danzas y festividades">
+
+<div class="controles">
+<button type="button" onclick="anteriorImagen()" aria-label="Imagen anterior">⬅</button>
+<button type="button" onclick="siguienteImagen()" aria-label="Imagen siguiente">➡</button>
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 Cultura Brasil - Sitio Educativo</p>
+</footer>
+
+</body>
+</html>
